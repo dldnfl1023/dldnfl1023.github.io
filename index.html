@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shorts Factory</title>
+<style>
+  :root { --bg:#f7f9fc; --fg:#1b2333; --muted:#5b6475; --accent:#2b6cf6; --card:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1420; --fg:#e8ecf4; --muted:#a3acbd; --card:#171e2e; } }
+  body { margin:0; font-family: -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; background:var(--bg); color:var(--fg); line-height:1.7; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px; }
+  h1 { margin: 0 0 8px; font-size: 2rem; }
+  .card { background:var(--card); border-radius:16px; padding:24px; margin:20px 0; box-shadow:0 2px 12px rgba(0,0,0,.06); }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); }
+  footer { margin-top: 40px; font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Shorts Factory</h1>
+  <p class="muted">YouTube 채널 「지구는 둥글둥글」 · 「지식이 몽실몽실」 운영용 업로드 도구</p>
+
+  <div class="card">
+    <h2>무엇을 하는 앱인가요?</h2>
+    <p>Shorts Factory는 채널 운영자가 직접 만든 교양 쇼츠 영상을 <b>운영자 본인의 YouTube 채널에</b> 예약 업로드하기 위한 개인용 도구입니다.
+      일반 사용자를 위한 서비스가 아니며, 다른 사람의 계정이나 채널에는 접근하지 않습니다.</p>
+    <ul>
+      <li>공공기관 퍼블릭 도메인 영상(NASA, NOAA 등)과 무료 라이선스 영상(Pixabay)에 해설을 더해 쇼츠를 제작합니다.</li>
+      <li>운영자가 검토·승인한 영상만 YouTube Data API를 통해 업로드합니다.</li>
+      <li>업로드할 채널 확인(채널 이름 조회)과 동영상 업로드 권한만 사용합니다.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>채널</h2>
+    <ul>
+      <li><a href="https://www.youtube.com/channel/UCOSM3k-xQexl9_2Gimo1Dig">지구는 둥글둥글</a> — 자연·우주·과학 1분 지식</li>
+      <li><a href="https://www.youtube.com/channel/UCCHzWgWHCMgxkjaRm7o0kIg">지식이 몽실몽실</a> — 5~9세 어린이를 위한 몽실이 백과</li>
+    </ul>
+  </div>
+
+  <footer class="muted">
+    <a href="privacy.html">개인정보처리방침</a> ·
+    이 앱은 <a href="https://www.youtube.com/t/terms">YouTube 서비스 약관</a>과
+    <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>을 따릅니다.
+  </footer>
+</main>
+</body>
+</html>
